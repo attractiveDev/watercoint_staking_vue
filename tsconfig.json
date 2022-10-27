@@ -1,0 +1,22 @@
+{
+  // https://v3.nuxtjs.org/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
+  "importsNotUsedAsValues": "error",
+  "noFallthroughCasesInSwitch": true,
+  "noImplicitOverride": true,
+  "noImplicitReturns": true,
+  "noUnusedLocals": true,
+  "noUnusedParameters": true,
+  "noUncheckedIndexedAccess": true,
+  "exactOptionalPropertyTypes": true,
+  "allowUnreachableCode": false,
+  "allowUnusedLabels": false,
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["ESNext", "ESNext.BigInt"],
+    "strict": true,
+    "jsx": "preserve"
+  }
+
+}

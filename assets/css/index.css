@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-split {
+  background: linear-gradient(
+    to bottom,
+    rgb(186, 230, 253) 40%,
+    white 40%,
+    white 60%
+  );
+}
+
+.button-normal {
+  @apply bg-slate-400 p-3 px-8 text-lg text-slate-100 font-bold;
+}
+
+.box {
+  @apply w-80 h-96 rounded-xl bg-slate-100 border-sky-300 border-[1px] drop-shadow-sm text-black;
+}
+
+.header-text {
+  @apply text-2xl font-bold text-slate-600;
+}
+
+.body-text {
+  @apply text-lg text-slate-600 font-semibold;
+}
